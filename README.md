@@ -1,7 +1,7 @@
 # Book Finder App
 You can search books by title, author, published date etc.
 
-Demo version: [LINK](http://localhost:3000)
+Demo version: [LINK](https://findbook.netlify.app/)
 
 ## Running project
 
