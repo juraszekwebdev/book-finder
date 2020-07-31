@@ -17,8 +17,6 @@ function App() {
 
 	return (
 		<React.Fragment>
-			<GlobalStyles/>
-
 			<Wrapper>
 				<Logo>Book Finder</Logo>
 				<Search setResults={setResults} results={results}/>
@@ -37,6 +35,7 @@ function App() {
 				}
 				<Footer/>
 			</Wrapper>
+			<GlobalStyles/>
 		</React.Fragment>
 	);
 }
