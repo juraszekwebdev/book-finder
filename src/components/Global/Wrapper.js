@@ -7,6 +7,9 @@ const Wrapper = styled.div`
 	height: 100vh;
 	max-width: 100%;
 	padding: 0 2em;
+	
+	@media screen and (min-width: 1199px) {
+	}
 `;
 
 export default Wrapper;

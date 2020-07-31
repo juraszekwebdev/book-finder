@@ -13,6 +13,8 @@ const Button = styled.button`
 	text-align: center;
 	color: #fff;
 	transition: all 300ms ease-in-out;
+	cursor: pointer;
+	text-decoration: none;
 `;
 
 export default Button;

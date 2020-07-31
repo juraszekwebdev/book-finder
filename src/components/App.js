@@ -4,7 +4,8 @@ import Search from "./Search/Search";
 import Results from "./Results/Results";
 import Wrapper from "./Global/Wrapper";
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
-import styled from "styled-components"; // ES6
+import styled from "styled-components";
+import Footer from "./Footer/Footer"; // ES6
 
 const ResultsWrapper = styled.div`
   margin-top: -8em;
@@ -21,14 +22,17 @@ function App() {
 
 				{results.length !== 0 &&
 					<ResultsWrapper results={results}>
-					<ReactCSSTransitionGroup transitionName="results"
-					                         transitionAppear={true}
-					                         transitionAppearTimeout={500}
-					                         transitionEnter={false}
-					                         transitionLeave={false}><Results results={results}/></ReactCSSTransitionGroup>
+					<ReactCSSTransitionGroup
+						transitionName="results"
+						transitionAppear={true}
+						transitionAppearTimeout={500}
+						transitionEnter={false}
+						transitionLeave={false}>
+						<Results results={results}/>
+					</ReactCSSTransitionGroup>
 					</ResultsWrapper>
 				}
-
+				<Footer />
 			</Wrapper>
 		</React.Fragment>
 	);
