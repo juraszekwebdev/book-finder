@@ -5,7 +5,8 @@ import Results from "./Results/Results";
 import Wrapper from "./Global/Wrapper";
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 import styled from "styled-components";
-import Footer from "./Footer/Footer"; // ES6
+import Footer from "./Footer/Footer";
+import GlobalStyles from "./Global/GlobalStyle"; // ES6
 
 const ResultsWrapper = styled.div`
   margin-top: -8em;
@@ -16,12 +17,14 @@ function App() {
 
 	return (
 		<React.Fragment>
+			<GlobalStyles/>
+
 			<Wrapper>
 				<Logo>Book Finder</Logo>
 				<Search setResults={setResults} results={results}/>
 
 				{results.length !== 0 &&
-					<ResultsWrapper results={results}>
+				<ResultsWrapper results={results}>
 					<ReactCSSTransitionGroup
 						transitionName="results"
 						transitionAppear={true}
@@ -30,9 +33,9 @@ function App() {
 						transitionLeave={false}>
 						<Results results={results}/>
 					</ReactCSSTransitionGroup>
-					</ResultsWrapper>
+				</ResultsWrapper>
 				}
-				<Footer />
+				<Footer/>
 			</Wrapper>
 		</React.Fragment>
 	);

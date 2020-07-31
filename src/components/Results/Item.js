@@ -101,7 +101,7 @@ const Item = props => {
 					</div>
 					<div className="content">
 						<div className="title">
-							<strong>{item.volumeInfo.title.substring(0,30)}...</strong>
+							<strong>{item.volumeInfo.title.substring(0, 30)}...</strong>
 						</div>
 						<div className="properties">
 							<ul>
