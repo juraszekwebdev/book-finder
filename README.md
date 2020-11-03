@@ -1,19 +1,18 @@
 # Book Finder App
 You can search books by title, author, published date etc.
 
-Demo version: [LINK](https://findbook.netlify.app/)
+Demo version: [LINK](https://pj-store.netlify.app)
 
 ## Running project
 
-In the project directory, you can run:
+### Install dependencies
+### `yarn install`
 
+### Run locally
 ### `yarn start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
+### Build app
 ### `yarn build`
-
 Builds the app for production to the `build` folder.
 
 ## Used technologies
