@@ -1,7 +1,7 @@
 # Book Finder App
 You can search books by title, author, published date etc.
 
-Demo version: [LINK](https://pj-store.netlify.app)
+Demo version: [LINK](https://pj-bookfinder.netlify.app)
 
 ## Running project
 
