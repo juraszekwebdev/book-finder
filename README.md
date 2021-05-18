@@ -1,22 +1,20 @@
-# Book Finder App
-You can search books by title, author, published date etc.
+# Book Finder
+Book Finder provides books from Google API that you can search by title or author name.
 
-Demo version: [LINK](https://pj-bookfinder.netlify.app)
+Demo: [LINK](https://pj-bookfinder.netlify.app/)
 
-## Running project
+## Running project locally
 
 ### Install dependencies
-### `yarn install`
+### `npm install`
 
-### Run locally
-### `yarn start`
+### Run locally (http://localhost:3000)
+### `npm run start`
 
-### Build app
-### `yarn build`
-Builds the app for production to the `build` folder.
+### Build app (/build)
+### `npm run build`
 
 ## Used technologies
 - ReactJS
 - Styled Components
-- Google Books Api
-- Axios
+- Google Books API
